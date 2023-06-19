@@ -1,0 +1,10 @@
+.header {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'arial narrow bold';
+  }
+  html {
+    background-color: #1572ec;
+    color: #ffffff ;
+    font-family: 'arial';
+  }
