@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+    <title>DOM Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Form Audisi Indonesian Idol 2024</h3>
+        </div>
+    <form action="">
+        <label for="nama">Nama :</label><br>
+        <input type="text" placeholder="Nama lengkap Anda" id="nama"><br><br>
+        <label for="birthdaytime">Tanggal Lahir:</label><br>
+        <input type="date" id="birthdaytime"
+            name="birthdaytime"><br><br>
+        <p>Jenis Kelamin:
+                <select id="jeniskelamin">
+                    <option>Laki-Laki</option>
+                    <option>Perempuan</option>
+                </select>
+                <p></p>
+            <p>Pilihan Kota Tempat Audisi :</p>
+        <input type="radio" name="kotaudisi" id="Jakarta" value="Jakarta"> <label for="Jakarta">Jakarta</label> <br> 
+        <input type="radio" name="kotaudisi" id="Bandung" value="Bandung"> <label for="Jakarta">Bandung</label> <br>
+        <input type="radio" name="kotaudisi" id="Yogyakarta" value="Yogyakarta"> <label for="Jakarta">Yogyakarta</label><br>
+        <p></p>
+        <label for="">Alamat Tempat Tinggal :</label><br>
+        <textarea placeholder="Tulis alamat-mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+        <label for="">Prestasi/Pengalaman:</label><br>
+        <textarea placeholder="Tuliskan prestasi/pengalamanmu dalam dunia tarik suara disini" name="prestasi" id="prestasi" cols="30" rows="5"></textarea><br><br>
+        
+        <button type="submit" onclick="kirimData()">SAVE</button>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(131, 191, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'times new roman', cursive;
+    font-size: 50px;
+    color: #0b0353;
+}
+h2{
+    font-family:'lucida sans', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #0b0353;
+    background: #1572ec;
+    color: #ffffff;
+    box-shadow: 5px 5px 8px #2689d0;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer,
+}
